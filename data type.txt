@@ -1,0 +1,15 @@
+DATA TYPE-1.data type will decide what type of value a variable can store 
+2. there can be three type of data type
+1.primitive data type 
+2.derived data type 
+3.user define data type 
+
+3. The main advantage of primitive data type is it can store a value but the 
+limitation of primitive data type is it can only store  one value at a time
+
+4.array comes under derived data type and the main advantage of array is it can store 
+multiple value at a time but the limitation of array is it can only store values of same type
+
+5.user define data type can store multiple values of either same type or different type
+
+6. in java class comes under user define data type 

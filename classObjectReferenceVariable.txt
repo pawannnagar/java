@@ -1,0 +1,17 @@
+CLASS-1.class is user define data type 
+2.class is an encapsulation mechanism of combining variables and methods in a single unit .
+3.class having logical existance
+
+OBJECT-any real world entity is known as object 
+abject having physical existance 
+
+reference variable -reference variable will always point to an object 
+if we want to perform any operation on the object then we can perform by using reference var.
+
+Student s = new Student();
+s-->reference variable 
+
+1.there is one to many relation b/w class and object that means one class can have multiple obj.
+2.there is one to many relation b/w object and reference variable that means one object have multiple 
+reference variable 
+

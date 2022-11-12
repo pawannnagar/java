@@ -1,0 +1,16 @@
+Static variable-1.if value of the variable is not changing from object  to object
+and it is same for all the object then it is recommonded to define that variable 
+as a static
+2.in case of static variable only a single copy will be created at class level
+and all the object will share that copy only
+3.a static variable will be created at the time of class loading and it will be 
+destroy at the time of class unloading 
+4.static variable store inside method area
+5.we need to define static variable directly inside class with static modifier
+6.we can access static varible by using following 3 ways
+a.direct
+b.by using object reference variable 
+b.by using class name
+**if we want to access static variable directtly then can only do this from same class
+at real time industry standard it is always recommonded to access static variable by using 
+class name as due to  this readability will be improved

@@ -1,0 +1,30 @@
+VARIABLE --variable is devided into two catagories
+1.Division-1
+2.Division-2
+based on the value represented by varible Division-1 is devided into two catagories 
+a.primitive variable 
+b.reference variable 
+based on the position of declaration and behavior Division-2 is devided into three catagory 
+a.instance varible 
+b.static varible 
+c.local variable 
+
+there are total 8 primitive data type 
+byte short int long foat double char boolean 
+
+a.instance variable -1.if the value of a varible is changing from object to object
+then it is recommonded to define that variable as instance variable .
+
+2.for every object is seperate copy of instance variable will be created 
+
+3.instance varwiable will be created at a time of object creation and it will be destroy 
+at the time of object destruction that means life of instance variable is exactly same as life of 
+object
+
+4.instance variable will be stored in heap area as a part of object 
+
+5.we need to declare instance variable directly in the class 
+
+6.we can access instance varible only by using object reference variable 
+
+

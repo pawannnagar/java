@@ -1,0 +1,51 @@
+if we are not providing any value of the instance or static varisble then by default jvm will give 
+default value.
+default value depends on the data type
+byte ,short,int ,long-->0
+float,double-->0.0
+char-->space
+boolean-->false
+user define class-->Null.
+
+class Test
+{
+boolean x;
+static String y;
+public static void main(String[] args)
+{
+Test t=new Test();
+t.x=true;
+System.out.println(t.x);
+System.out.println(Test.y);
+}
+}
+
+we can access static variable directly from both instance and static area.
+we can access instance variable directly from instance area but we can not
+access instance variable directly from the static area .
+
+class Test 
+{
+int x=10;
+public static void main(String[] args )
+{
+Test t=new Test();
+Test t1=new Test();
+t.x=40;
+t.m1();
+t1.m1();
+
+static void m1()  ------------>static area we can not access x directly  from static area error .
+{
+System.out.println(x);
+}
+}
+
+if static dont have then output 40
+                                10
+
+
+
+
+
+

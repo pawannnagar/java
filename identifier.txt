@@ -1,0 +1,32 @@
+identifier- any name in java known as identifier
+any name 
+class name 
+vaiable name 
+method name
+label name
+rules for identifier 
+1. iidentifier dshould be from combination of following character 
+a to z
+A to Z
+0 to 9
+$
+-
+2.identifier should not be start from digit
+compiler confusion
+int ap=10;
+int 9p=4; false
+3.there is no length limit for java identifier but as for the real time idustry we need to make identifier 
+length as possible as minimum
+
+4.we can not use reserved word as an identifier in java
+int if=10; false
+int for=20; false
+
+5.java is case sensitive language that means in java uppercase and lower case chracter will be
+treated differently 
+int if=10; false
+int IF=20; true
+
+6.in java we can use predefined class and interface name as an identifier but in real time 
+industry it is not recommonded TO take predefined class and interface name as an identier becuase 
+it will create confusion and will decrease the readability 
